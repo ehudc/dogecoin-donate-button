@@ -1,5 +1,4 @@
 #Dogecoin Donate Button
-----------
 
 A donation button written in HTML (with CSS and jQuery) that can be placed on your website or blog.
 
@@ -11,12 +10,13 @@ In this case, it allows for customized animations for revealing your coin donati
 
 ### Placing the button on your webpage
 
+_(An example `dogeButton.html` is in the repo)_
+
 To use this button:
-1. Include the CSS and JS in your `<head>`
+
+1. Include `dogeButtonStyle.css` and `dogeButton.js` in your `<head>`
 2. Place the following div where you want the button to go:
 
-```
-<div id="dogecoin-widget-container" data-property="opacity" data-speed="slow" data-address="__"></div>
-```
+        <div id="dogecoin-widget-container" data-property="" data-speed="" data-address=""></div>
 
 3. Put your Dogecoin address in the `data-address` field, and adjust the `property` and `speed` fields as desired.
