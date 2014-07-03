@@ -1,22 +1,22 @@
 #Dogecoin Donate Button
 ----------
 
-A donation button written in HTML (with CSS and JQuery) that can be placed on your website or blog.
+A donation button written in HTML (with CSS and jQuery) that can be placed on your website or blog.
 
-Included with this button is a custom JQuery function called "reveal" (that may be expanded on in the future) that toggles an element's appearance to reveal the element behind it. 
+Included with this button is a custom jQuery function called "reveal" (that may be expanded on in the future) that toggles an element's appearance to reveal the element behind it. 
 
 In this case, it allows for customized animations for revealing your coin donation address. This gif shows an example of using the animation properties `opacity`, `height` and `width` :
 
 ![](http://i.imgur.com/MRPbzZV.gif)
 
-### Using the Button and Plugin
+### Placing the button on your webpage
 
-To use this button on your webpage, include the CSS and JS in your `<head>` and choose your animation style:
+To use this button:
+1. Include the CSS and JS in your `<head>`
+2. Place the following div where you want the button to go:
 
 ```
-<script>
-    $(document).ready(function () {
-        $('.donateBox').reveal('ANIMATION_PROPERTY', '#coinButton', '.cover', 'slow');
-    });
-</script>
+<div id="dogecoin-widget-container" data-property="opacity" data-speed="slow" data-address="__"></div>
 ```
+
+3. Put your Dogecoin address in the `data-address` field, and adjust the `property` and `speed` fields as desired.
