@@ -10,7 +10,7 @@ In this case, it allows for customized animations for revealing your coin donati
 
 ### Placing the button on your webpage
 
-_(An example `dogeButton.html` is in the repo)_
+_(An example `index.html` is in the repo)_
 
 To use this button:
 
